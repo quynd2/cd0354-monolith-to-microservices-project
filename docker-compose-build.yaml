@@ -15,4 +15,4 @@ services:
   frontend:
     build:
       context: ./udagram-frontend
-    image: quynguyen2306/udagram-frontend:local
+    image: quynguyen2306/udagram-frontend:v2

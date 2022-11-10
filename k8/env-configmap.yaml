@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: quynd2-project3
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: token
+  POSTGRES_DB: dbinstance
+  POSTGRES_HOST: dbinstance.ceympa9cajs1.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
